@@ -47,7 +47,7 @@ brew install raylib
 ### Clone and build
 
 ```bash
-git clone https://github.com/yourusername/boids.git
+git clone https://github.com/JasveerD/boids.git
 cd boids
 mkdir build && cd build
 cmake ..
@@ -69,3 +69,4 @@ The following constants in `main.cpp` can be tuned to change the simulation beha
 | `RADIUS_OF_PRECEP`| Neighborhood radius for cohesion/alignment |
 | `RADIUS_OF_SEP`   | Radius within which separation activates |
 | `SEP_WEIGHT`      | Multiplier for separation force strength |
+
